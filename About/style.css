@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto",normal;
+    font-size: medium;
+    font-family: "Playfair Display", serif;
+}
+header li{
+    margin:  20px; 
+    display: inline-block;
+   
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: -5px;
+  }
+  .dropdown-content a {
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+header ul li a:hover {
+    color: #ad9966; 
+    text-decoration: none; 
+  }
+  #about{
+    color: #ad9966;
+  }
+  header{
+    text-align: center;
+}
+#logo{
+    width: auto;
+    padding-top: 0;
+    
+
+}
+#logo img{
+    width: 66.81px;
+    height: 79.38px;
+    justify-content: center;
+}
+#sc01{ height: 78vh;
+background-image: url(imagens/header-bg.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.Roftop h1{
+    color: #fff;
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 10.8px;
+}
+h1{
+    line-height: 1.5em;
+    font-family: "Playfair Display", serif;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+    display:block
+}
+.Roftop{
+    text-align: center;
+    padding-top: 280px;
+}
+hr{
+    position: relative;
+    left: 500px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid white;
+    width: 500px;
+    
+} 
+.botoes{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#botaoHome,
+#botaoAbout,
+.seta{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#botaoHome,
+#botaoAbout{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+#botaoHome:hover,
+#botaoAbout:hover{
+    color: #ad9966;
+}
+.seta{
+    color: white;
+    font-size: 16px;
+}
+#sec02{
+    width: 100%;
+    height: 500px;
+    font-size: 0; 
+}
+#massa{
+    position: static;
+}
+
+#dinning{
+    position: static;
+}
+#massa{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+
+    object-fit: cover;
+    vertical-align: top;
+
+    margin-top: 200px; 
+}
+#dinning{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+   margin-top: 250px;
+    vertical-align: top;
+
+    padding: 80px;
+
+    font-size: 16px; 
+}
+#dinning h1{
+    font-size: 40px;
+    line-height: 1.1;   
+    font-weight: normal;
+    margin: 0;          
+}
+#dinning p{
+    font-size: 14px;
+    color: #777;
+    line-height: 1.8;
+
+    margin-top: 10px;
+    max-width: 500px;
+}
+#sec03{
+    position: relative; 
+
+    height: 78vh;
+    background-image: url(imagens/callaction-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    margin-top: 400px;
+}
+#course{
+    width: 35%;
+    background: rgba(255, 255, 255, 0.9);
+
+    padding: 40px 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%); 
+
+    text-align: center;
+}
+#chefs{
+ position: relative;
+ left: 20px;
+ width: 500;
+ height: 400px;
+ top: -400px;
+ margin-top: 700px;
+
+}
+#chefs>h1{
+    font-size: 35px;    
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: normal;
+    font-weight: normal;
+}
+#chefs>p {
+    text-align: justify;       
+    color: #777;               
+    font-size: 14px;           
+    line-height: 1.8;         
+    max-width: 600px;          
+    margin: 20px 0;  
+}
+#chefs>img{
+ display: block;
+margin-top: 20px;
+}
+#chefe{
+position: absolute;
+right: 200px;
+  top: -190px;
+width: 400px;
+ z-index: 5;
+}
+#rodape{
+    background: #0c1b2a;
+    color: #aab3bd;
+    padding: 80px 0;
+    z-index: 2;
+}
+
+
+#rodape .container{
+    width: 90%;
+    margin: auto;
+}
+
+.col{
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    margin: 1%;
+}
+
+
+.col h2{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.col ul{
+    list-style: none;
+    padding: 0;
+}
+
+.col ul li{
+    margin-bottom: 10px;
+}
+
+
+.col ul li a{
+    color: #aab3bd;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+
+.col ul li a:hover{
+    color: #ad9966;
+    padding-left: 5px; 
+}
+
+
+.newsletter p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.email{
+    position: relative;
+}
+
+.email input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: transparent;
+    border: 1px solid #2a3a4a;
+    color: white;
+}
+
+.email button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+
+    background: #ad9966;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.bottom{
+    margin-top: 50px;
+    border-top: 1px solid #2a3a4a;
+    padding-top: 20px;
+}
+
+
+.bottom p{
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+.social{
+    float: right;
+}
+
+.social a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+
+    text-align: center;
+    margin-left: 5px;
+
+    background: #111;
+    color: #ccc;
+
+    transition: 0.3s;
+}
+
+.social a:hover{
+    background: #ad9966;
+    color: white;
+}
+
+::selection{
+    background-color: #ad9966;
+}
