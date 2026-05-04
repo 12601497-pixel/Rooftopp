@@ -1,0 +1,609 @@
+*{box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto",normal;
+    font-size: medium;
+    font-family: "Playfair Display", serif;
+}
+header li{margin:  20px; 
+    display: inline-block;
+   
+}
+
+a{color: black;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .dropdown:hover .dropbtn {background-color: #ffffff;
+  }
+  
+.dropdown-content {display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: -5px;
+  }
+.dropdown-content a {padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {display: block;
+}
+  
+header ul li a:hover {color: #ad9966; 
+    text-decoration: none; 
+}
+
+#home{color: #AD9966;
+    font-size: 13px;
+    font-weight: 500;
+margin: 0px 32px 0px 0px;
+}
+
+header ul { display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+header { position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  
+    background-color: #fff; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+    padding: 10px 0; 
+    transition: all 0.3s ease;
+}
+
+#logo{width: auto;
+    padding-top: 0;
+    
+
+}
+
+#logo img{
+    width: 66.81px;
+    height: 79.38px;
+    justify-content: center;
+}
+
+#sec1 { width: 100%;
+    height: 100vh; 
+    background-image: url('img/header-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Roftop h1{
+    font-size: 72px; 
+    color: white;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: "Playfair Display", sans-serif;
+}
+
+h1{
+    line-height: 1.5em;
+    font-family: "Playfair Display", serif;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: normal;
+    display:block
+}
+
+.Roftop {
+    font-size: 80px; 
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+    z-index: 2;
+}
+
+#subtitulo { color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+hr { border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    width: 80px;   
+    margin: 20px auto;
+    
+} 
+#verMenu{
+    background-image: url(img/view-menu-bg.png);
+    background-repeat: no-repeat ;
+    background-position: left;
+    position: fixed ;
+    top: 40%;
+    left: 0;
+    height: 180px;
+    width: 92px;   
+    z-index: 999;
+}
+#textoView{
+    text-align: center;
+    padding-top: 80px;
+    transform: rotate(90deg);
+   position: relative;
+   left: 20px;
+   top: 35px;
+   font-family: 'Roboto';
+    font-style: italic
+    
+}
+#verMenu  p a {
+color: #000;
+text-transform: uppercase;
+font-size: 13px;
+transition: all 0.4s;
+text-decoration: none;
+z-index: 1;
+transform: rotate(-90deg);
+
+}
+#textoView  :hover{
+color: #ad9966;
+cursor: pointer;
+transform: rotate(-90deg);
+}
+#Book{
+    position: relative;
+    background-image: url(img/book-table-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: fixed ;
+    top: 40%;
+   right: 0;
+    height: 180px;
+    width: 92px;
+    z-index: 999;
+
+    
+}
+#txtbook{
+    text-align: center;
+    padding-top: 80px;
+    transform: rotate(90deg);
+   position: relative;
+   left: 60px;
+   top: 35px;
+   font-family: 'Roboto';
+    font-style: italic
+    
+   
+
+}
+#txtbook  a{
+    color: white;
+    text-decoration: none;
+    
+}
+#txtbook>p>a:hover{
+color: #000;
+cursor: pointer;
+}
+
+#seta {
+    position: absolute;
+    bottom: 30px;   
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 10;
+}
+
+#seta:hover {
+    transform: translateY(10px);
+}
+
+#sec02 {
+    width: 100%;
+    height: 75%;
+
+}
+#txtesquerda{
+    width: 50%;
+}
+#dailyfood {
+    width: 100%;
+    height: 750px;
+     display: flex;             
+    justify-content: space-between;
+}
+#menulista{
+position: relative;
+width: 700px;
+text-align: center;
+padding: 40px;
+margin-left: auto;
+background: #faf5f0;
+background-position: right;
+padding-right: 10px;
+margin-right: 50px;
+z-index: 1px;
+}
+#menulista>h1{
+     font-size: 24px;
+     position: relative;
+     margin-bottom: 10px
+}
+#menulista>h2{
+    font-size: 13px;
+    color: #999;
+    margin-top: 4px;
+}
+#menulista>h1::after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+   background: #dfdfdf;
+    left: 25%;     
+    bottom: -10px; 
+}
+    
+
+#txtesquerda{
+position: relative;
+text-align: left;
+ padding-left: 200px;
+ padding-top: 200px;;
+}
+#txtesquerda>h1{
+     font-size: 52px;
+     
+}
+#txtesquerda>p{
+    color: #999;
+    font-size: 13px;
+     margin-top: 4px;
+     display: block;
+     line-height: 30px;
+}
+#txtesquerda>a{
+   display: inline-block; 
+    
+    background-color: #ad9966;
+    color: #fff;
+
+    padding: 15px 30px;
+    
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+
+    margin-top: 20px;
+}
+#txtesquerda>a:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #ad9966;
+    
+}
+#sec03{
+      position: relative;
+    height: 600px;
+}
+
+#g1{
+    position: relative;
+    z-index: 2px;
+    padding-left: 16% ;
+    margin-top: -100px;
+    height: 500px;
+}
+#g2{
+      position: relative;
+       padding-left: 50%;
+        top: -600px;
+
+}
+#g3{
+    position: relative;
+    padding-left:8%;
+    top:-550px;
+}
+#g4{
+    position: relative;
+    padding-left: 50%;
+     top:-1110px;
+
+}
+
+#reserva{
+    text-align: center;
+    padding: 100px 0;
+    background:  #faf5f0;
+    margin-top: 800px;
+    width: 900px;
+    height: 900px;
+    z-index: 10;
+  
+}
+
+#reserva input,
+#reserva select{
+    display: inline-block;
+    width: 45%;        
+    margin: 10px 2%;   
+    padding: 12px;
+
+    border: 1px solid #ccc;
+}
+
+#send{
+    color: white;
+    background-color: #000;
+    display: inline-block; 
+     padding: 15px 30px;
+     margin-left: 90px;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+     position: relative;
+    margin-top: 20px;
+    margin-right:10px ;
+}
+#send:hover{
+color: #ad9966;
+background-color:#faf5f0;
+border:#ad9966 solid;
+cursor: pointer;
+}
+#Table{
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 200px;
+    top: -800px;
+}
+
+
+#Table > h1{
+    font-size: 35px;    
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: normal;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+
+#Table > h2{
+    font-size: 14px;        
+    color: #999;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+#chefs{
+ position: relative;
+ left: 20px;
+ width: 500;
+ height: 400px;
+ top: -400px;
+
+}
+#chefs>h1{
+    font-size: 35px;    
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: normal;
+    font-weight: normal;
+}
+#chefs>p {
+    text-align: justify;       
+    color: #777;               
+    font-size: 14px;           
+    line-height: 1.8;         
+    max-width: 600px;          
+    margin: 20px 0;  
+}
+#chefs>img{
+ display: block;
+margin-top: 20px;
+}
+#chefe{
+position: absolute;
+right: 200px;
+  top: -190px;
+width: 400px;
+ z-index: 5;
+}
+#sec05{
+    position: relative; 
+
+    height: 78vh;
+    background-image: url(img/callaction-bg.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+}
+#course{
+    width: 35%;
+    background: rgba(255, 255, 255, 0.9);
+
+    padding: 40px 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%); 
+
+    text-align: center;
+}
+#erro{
+    width: 520px;
+    height: 600px;
+
+    background-color: #f1f1f1;
+
+    margin-top: 100px;   
+    margin-left: 100px;   
+}
+#restaurante{
+ position: relative;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 300px;
+    top: -500px;
+}
+#restaurante>h1{
+    font-size: 35px;    
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: normal;
+    line-height: 1.2;
+    font-weight: normal;
+}
+#restaurante>h3{
+    font-size: 14px;        
+    color: #999;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+#rodape{
+    background: #0c1b2a;
+    color: #aab3bd;
+    padding: 80px 0;
+    z-index: 2;
+}
+
+
+#rodape .container{
+    width: 90%;
+    margin: auto;
+}
+
+.col{
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    margin: 1%;
+}
+
+
+.col h2{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.col ul{
+    list-style: none;
+    padding: 0;
+}
+
+.col ul li{
+    margin-bottom: 10px;
+}
+
+
+.col ul li a{
+    color: #aab3bd;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+
+.col ul li a:hover{
+    color: #ad9966;
+    padding-left: 5px; 
+}
+
+
+.newsletter p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.email{
+    position: relative;
+}
+
+.email input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: transparent;
+    border: 1px solid #2a3a4a;
+    color: white;
+}
+
+.email button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+
+    background: #ad9966;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.bottom{
+    margin-top: 50px;
+    border-top: 1px solid #2a3a4a;
+    padding-top: 20px;
+}
+
+
+.bottom p{
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+.social{
+    float: right;
+}
+
+.social a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+
+    text-align: center;
+    margin-left: 5px;
+
+    background: #111;
+    color: #ccc;
+
+    transition: 0.3s;
+}
+
+.social a:hover{
+    background: #ad9966;
+    color: white;
+}
+
+::selection{
+    background-color: #ad9966;
+}
+
